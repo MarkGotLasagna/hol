@@ -1,2 +1,4 @@
 # Ignore backup files from drawio
 *.bkp
+
+output/

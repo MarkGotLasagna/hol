@@ -3,15 +3,15 @@
     LICENSE: CC-BY-SA-4.0 license
 
     DESCRIPTION:
-    Extract text from the original .drawio file and create a dedicated JSON file 
-    with ISO 639-2:1998 3-letter language codes for translation. The generated 
+    Extract text from the original .drawio file and create a dedicated JSON file
+    with ISO 639-2:1998 3-letter language codes for translation. The generated
     JSON will reside in the Translations folder and will look like this:
 
     Timeline-ABC.JSON
-    
+
     Call this script from the project's root folder like so:
 
-    python ./Scripts/extract.py
+    python src/scripts/extract.py
 
     See the list of ISO 639-2 codes here (https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes).
 """
@@ -22,8 +22,8 @@ import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
 
-input_file = os.path.join(project_root, "Diagrams", "Timeline.drawio")
-translations_dir = os.path.join(project_root, "Translations")
+input_file = os.path.join(project_root, "src", "diagrams", "Timeline.drawio")
+translations_dir = os.path.join(project_root, "output", "translations")
 
 lang_code = input("Input the 3-letter lang code: ").upper()
 

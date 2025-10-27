@@ -1,6 +1,6 @@
 # History Of Linux Project
 <p align="center">
-    <img src="./.github/HOLP-v1.png" width="150"> </br>
+    <img src="./assets/HOLP-v1.png" width="150"> </br>
     <img src="https://img.shields.io/badge/License-CC%20BY%20SA%204.0-lightgrey.svg">
     <img src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red.svg"> </br>
     <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg">
@@ -15,21 +15,21 @@
 <details>
 <summary>Timeline (<i>click here to expand</i>)</summary>
 <br>
-<img src="./.github/Timeline.png">
+<img src="./assets/Timeline.png">
 </details>
 
 ---
 
 ## What is HOLP
-__History Of Linux Project__ (HOLP) is an open-source initiative, and future 
-[cultural association](https://it.wikipedia.org/wiki/Associazionismo_culturale), aimed at illustrating the 
-history of Linux by using a timeline with colorful cards and images. Each card in the diagram 
-represents a core event in history that contributed to the creation of Linux and to what Linux 
-is, today. Images placed above the timeline illustrate important figures, 
-logos belonging to companies or organizations that helped directly or passively with the 
+__History Of Linux Project__ (HOLP) is an open-source initiative, and future
+[cultural association](https://it.wikipedia.org/wiki/Associazionismo_culturale), aimed at illustrating the
+history of Linux by using a timeline with colorful cards and images. Each card in the diagram
+represents a core event in history that contributed to the creation of Linux and to what Linux
+is, today. Images placed above the timeline illustrate important figures,
+logos belonging to companies or organizations that helped directly or passively with the
 creation of Linux.
 
-Visit the [releases page](https://github.com/MarkGotLasagna/holp/releases) to download the latest timeline. 
+Visit the [releases page](https://github.com/MarkGotLasagna/holp/releases) to download the latest timeline.
 
 ## Goals
 1. Illustrate how Linux came to be, from its birth till present day.
@@ -41,7 +41,7 @@ Visit the [releases page](https://github.com/MarkGotLasagna/holp/releases) to do
 HOLP is an open-source project. As such, it welcomes volunteers to:
 - add, remove or modify cards about historical events;
 - fact check written information, including both cards and dates;
-- suggest artistic changes to the timeline; 
+- suggest artistic changes to the timeline;
 - enhance accessibility and readability;
 - add translations.
 

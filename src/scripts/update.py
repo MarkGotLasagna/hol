@@ -4,14 +4,14 @@
 
     DESCRIPTION:
     Generate a new .drawio diagram using the selected JSON file.
-    The newly created .drawio file will reside in the Diagrams folder and 
+    The newly created .drawio file will reside in the Diagrams folder and
     will look like this:
 
     Timeline-ABC.drawio
-    
+
     Call this script from the project's root folder like so:
 
-    python ./Scripts/update.py
+    python src/scripts/update.py
 
     See the list of ISO 639-2 codes here (https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes).
 """
@@ -22,10 +22,10 @@ import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
 
-input_file = os.path.join(project_root, "Diagrams", "Timeline.drawio")
+input_file = os.path.join(project_root, "src", "diagrams", "Timeline.drawio")
 
-translations_dir = os.path.join(project_root, "Translations")
-diagrams_dir = os.path.join(project_root, "Diagrams")
+translations_dir = os.path.join(project_root, "output", "translations")
+diagrams_dir = os.path.join(project_root, "src", "diagrams")
 
 lang_code = input("Input the 3-letter lang code: ").upper()
 
