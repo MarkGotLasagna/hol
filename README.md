@@ -29,15 +29,17 @@ is, today. Images placed above the timeline illustrate important figures,
 logos belonging to companies or organizations that helped directly or passively with the
 creation of Linux.
 
-Visit the [releases page](https://github.com/MarkGotLasagna/holp/releases) to download the latest timeline.
+Visit the [releases page](https://github.com/MarkGotLasagna/holp/releases) to download the latest version.
+
+Visit the [website](https://markgotlasagna.github.io/holp/) for an interactive version. (WIP)
 
 ## Contributing
 
 If you'd like to contribute to this project, please read the [contribution guidelines](./CONTRIBUTING.md) document first.
 
 ---
-
-## Contributors
-<a href="https://github.com/MarkGotLasagna/holp/graphs/contributors">
+$$—\ Contributors\ —$$
+$$\small{\text{This section is currently empty.}}$$
+<!-- <a href="https://github.com/MarkGotLasagna/holp/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MarkGotLasagna/holp" />
-</a>
+</a> -->
