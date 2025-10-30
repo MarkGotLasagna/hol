@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>History Of Linux Project</title>
+    <link rel="icon" type="image/png" href="icons/HOLP-v1.png">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header>
+        <img src="icons/HOLP-v1.png" alt="HOLP Logo" class="logo">
+        <h1>History Of Linux Project</h1>
+        <span class="version">
+            <a href="https://github.com/MarkGotLasagna/holp">
+                <img src="icons/github-ico.svg" title="GitHub repository" alt="GitHub" height="30" style="vertical-align: middle;">
+            </a>
+            <!--
+            <img src="https://img.shields.io/github/stars/MarkGotLasagna/holp?style=plastic" alt="GitHub stars" style="vertical-align: middle;"> 
+            <img src="https://img.shields.io/github/last-commit/MarkGotLasagna/holp?style=plastic" alt="GitHub last commit" style="vertical-align: middle;">
+            <img src="https://img.shields.io/github/v/release/MarkGotLasagna/holp?include_prereleases&style=plastic" alt="GitHub release version" style="vertical-align: middle;">
+            -->
+        </span>
+    </header>
+    
+    <main class="container">
+        <div class="svg-container" id="svg-container">
+            <img src="Timeline.svg" alt="History of Linux Timeline" id="timeline-img">
+        </div>
+    </main>
+    
+    <!-- Download Button -->
+    <div class="download-btn" id="downloadBtn" title="Download timeline">
+        <img src="icons/download-ico.svg" alt="Download" width="24" height="24">
+    </div>
+    
+    <!-- Download Menu -->
+    <div class="download-menu" id="downloadMenu">
+        <a href="Timeline.svg" download="Timeline.svg" title="Download SVG version" class="download-option">SVG</a>
+        <a href="images/Timeline.png" download="Timeline.png" title="Download PNG version" class="download-option">PNG</a>
+    </div>
+    
+    <script src="js/navbar.js"></script>
+    <script src="js/download-menu.js"></script>
+</body>
+</html>

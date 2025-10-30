@@ -1,0 +1,58 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+/* About Page Content */
+.about-content {
+    max-width: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.about-content h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.about-content h3 {
+    color: #333;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.about-content ul {
+    color: #555;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.about-content li {
+    margin-bottom: 8px;
+}
+
+.about-content a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.about-content a:hover {
+    text-decoration: underline;
+}
